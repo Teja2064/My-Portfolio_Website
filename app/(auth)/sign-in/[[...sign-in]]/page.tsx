@@ -1,5 +1,8 @@
-import { SignIn } from "@clerk/nextjs";
+'use client'
 
-export default function Page() {
-  return <SignIn />;
+import * as Clerk from '@clerk/elements/common'
+import * as SignIn from '@clerk/elements/sign-in'
+
+export default function SignInPage() {
+  return <SignIn.Root>[Sign In Root]</SignIn.Root>
 }
